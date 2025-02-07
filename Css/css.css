@@ -190,10 +190,10 @@ h1 {
 }
 
 .card-img-top {
-    height: 200px;
+    height: auto;
+    max-height: 200px; /* Para que no se deformen en pantallas más pequeñas */
     object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 100%;
 }
 
 .card-body {
