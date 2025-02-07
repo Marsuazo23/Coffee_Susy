@@ -247,7 +247,7 @@ form {
   }
 
   .form-control:focus {
-    border-color: #007bff;
+    border-color: green;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
 
@@ -258,17 +258,19 @@ form {
 
   .btn_Enviar {
     padding: 12px 20px;
-    background-color: #007bff;
+    background-color: darkolivegreen;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 100%;
+    max-width: 600px;
   }
 
   .btn_Enviar:hover {
-    background-color: #0056b3;
+    background-color: green;
   }
 
   .mb-3 {
